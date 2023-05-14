@@ -49,6 +49,8 @@ public class SemesterController {
         semesterRepository.delete(deletedSemester);
         return "deleted semester";
     }
+
+
     @Configuration
     public class CorsConfiguration {
 
